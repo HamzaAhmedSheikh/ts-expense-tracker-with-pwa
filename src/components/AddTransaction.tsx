@@ -1,18 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
+
 
 
 export const AddTransaction = () => {
 
  
 
-    const [text, setText] = useState('');
-    const [amount, setAmount] = useState(0);
+    // const [text, setText] = useState('');
+    // const [amount, setAmount] = useState(0);
 
     return (
       <>
        <h3> Add new Transaction </h3> 
 
-       <form>
+       {/* <form>
          <div className='form-control'>
            <label htmlFor='text'> Text </label>
             <input type='text'
@@ -33,7 +34,7 @@ export const AddTransaction = () => {
           </div>
 
             <button className="btn"> Add Transaction </button>
-          </form>            
+          </form>             */}
       </>
     )
 }

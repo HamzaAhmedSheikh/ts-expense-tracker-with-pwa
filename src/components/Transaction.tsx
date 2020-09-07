@@ -3,7 +3,7 @@ import React, { useContext } from "react";
 import { TransactionContext } from "../context/GlobalState";
 import { TransactionPropType } from "../Types/Types";
 
- const Transaction: React.FC<TransactionPropType> = ({ trans }) => {
+ const TransactionDel: React.FC<TransactionPropType> = ({ trans }) => {
 
     const { deleteTransaction } = useContext(TransactionContext);
 
@@ -30,5 +30,5 @@ import { TransactionPropType } from "../Types/Types";
  }
 
 
- export default Transaction;  
+ export default TransactionDel;  
   
