@@ -4,12 +4,12 @@ export type initialStateType = {
     Transaction: {
         id: number,
         text: string,
-        amount: number,
+        amount: number
     }[];
 
     deleteTransaction: (id: number) => void;
     addTransaction: (transaction: TransactionType) => void;
-}
+} 
 
  //context/TransactionReducer Actions Type
 
