@@ -29,6 +29,10 @@ export type initialStateType = {
     trans: { id: number; text: string; amount: number };
   };
 
+  export type expenseTrackerErrorType = {
+    textError: string;
+    AmountError: string;
+  };
 
 
 
