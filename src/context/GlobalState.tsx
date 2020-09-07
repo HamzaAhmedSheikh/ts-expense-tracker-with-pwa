@@ -22,7 +22,7 @@ import { TransactionType, initialStateType } from '../Types/ExpenseTrackerTypes'
     const [state, dispatch] = useReducer(Reducer, initialstate)
 
     //Actions
-    //Actions types is handiling in Reducer
+    //Actions types is handling in Reducer
 
     function addTransaction(transactionData: TransactionType) {
         dispatch({
