@@ -15,7 +15,9 @@ import { TransactionType, initialStateType } from '../Types/ExpenseTrackerTypes'
    } 
 
 
-//  export const TransactionContext = createContext(initialstate);
+  export const TransactionContext = createContext(initialstate);
+
+
  
 //  export const TransactionProvider: React.FC = ({ children }) => {
 
