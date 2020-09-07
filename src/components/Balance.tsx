@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 
 import { TransactionContext } from '../context/GlobalState';
 
+
 export const Balance = () => {
 
   const { Transaction } = useContext(TransactionContext);
@@ -12,7 +13,9 @@ export const Balance = () => {
     return (
         <div>
           <h4> Your Balance </h4> 
-          <h1 id="balance"> ${total} </h1>                                   
+          <h1 id="balance">
+            ${ total }                                                   
+          </h1>                                   
         </div>
     )
 }
