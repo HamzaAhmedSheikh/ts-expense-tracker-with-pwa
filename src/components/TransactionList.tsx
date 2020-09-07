@@ -14,12 +14,11 @@ export const TransactionList = () => {
         <div>
           <h1> Transaction History </h1>
           <hr />
-
-          {Transaction.map((trans: TransactionType) => (
-             <TransactionDel trans={trans} key={trans.id} />                   
-              
-          ))}
-
+          <ul id="list" className="list">
+            {Transaction.map((trans: TransactionType) => (
+              <TransactionDel trans={trans} key={trans.id} />      
+            ))}
+          </ul>
              
         </div>
     )

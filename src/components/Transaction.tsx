@@ -7,25 +7,22 @@ import { TransactionPropType } from "../Types/Types";
 
     const { deleteTransaction } = useContext(TransactionContext);
 
+    const sign = trans.amount < 0 ? '-' : '+';
+
    return(
-      <div>
-        <button className="delete-btn" onClick={() => deleteTransaction(trans.id)}>
-            {" "} X {" "}
-        </button>  
+     <li className={trans.amount < 0 ? 'minus' : 'plus'}>
+       { trans.text } 
 
-        <div> {trans.text}  </div>
+       <span>
+          {sign} 
+          ${Math.abs(trans.amount)}
+       </span>  
 
-        <div>
-          <h1>
-            {trans.amount < 0 ? "-" : "+"}${Math.abs(trans.amount)}
-          </h1>
-        </div>
-
-        <div
-          className={` ${trans.amount < 0 ? "bg-red-600" : "bg-green-600" }`}
-        ></div>
-
-      </div> 
+       <button onClick={() => deleteTransaction(trans.id)}
+               className="delete-btn">  
+             x
+       </button>
+     </li>      
    ) 
  }
 
