@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 
 import { TransactionContext } from "../context/GlobalState";
-import { TransactionPropType } from "../Types/Types";
+import { TransactionPropType } from "../Types/ExpenseTrackerTypes";
 
  const TransactionDel: React.FC<TransactionPropType> = ({ trans }) => {
 

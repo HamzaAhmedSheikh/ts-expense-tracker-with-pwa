@@ -4,7 +4,7 @@ import { TransactionContext } from '../context/GlobalState';
 import TransactionDel from './Transaction'
 
 // type
-import { TransactionType } from '../Types/Types';
+import { TransactionType } from '../Types/ExpenseTrackerTypes';
 
 export const TransactionList = () => {
 

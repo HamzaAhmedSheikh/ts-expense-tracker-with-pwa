@@ -4,7 +4,7 @@ import Reducer from './AppReducer'
 
  //types
  
-import { TransactionType, initialStateType } from '../Types/Types';
+import { TransactionType, initialStateType } from '../Types/ExpenseTrackerTypes';
 
  // create global state
 

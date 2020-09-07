@@ -1,4 +1,4 @@
-import { TransactionType } from "../Types/Types";
+import { TransactionType } from "../Types/ExpenseTrackerTypes";
 
  type Actions =
  | { type: "Delete_Transaction"; payload: number }
