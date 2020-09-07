@@ -53,8 +53,7 @@ export const AddTransaction = () => {
         <div className='form-control'>
           <label htmlFor='amount'> Amount <br /> ( negative - expense, positive - income )       </label>          
             <input
-              type="number"
-              className="w-full rounded-sm py-1 px-2 outline-none"
+              type="number"              
               placeholder="Enter Amount..."
               value={amount === 0 ? "" : amount}
               onChange={(e) => {
