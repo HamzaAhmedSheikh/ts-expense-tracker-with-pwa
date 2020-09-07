@@ -18,11 +18,12 @@ export type initialStateType = {
   | { type: "Delete_Transaction"; payload: number }
    
 // transaction Type
- export type TransactionType = {
+export type TransactionType = {
     id: number;
     text: string;
     amount: number;
 };
+
 
  //components/Trasaction.tsx props type
  export type TransactionPropType = {
