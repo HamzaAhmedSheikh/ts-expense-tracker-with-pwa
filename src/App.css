@@ -54,6 +54,10 @@ h4 {
   text-align: center;
 }
 
+#balance {
+  font-family: 'Roboto Mono', monospace;
+}
+
 .inc-exp-container {
   background-color: #fff;
   box-shadow: var(--box-shadow);
