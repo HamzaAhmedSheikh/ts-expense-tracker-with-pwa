@@ -18,7 +18,7 @@ function App() {
         <Balance />
         <IncomeExpenses />
         <TransactionList />
-        <AddTransaction />
+        <AddTransaction />        
       </div>
     </TransactionProvider>
   );
